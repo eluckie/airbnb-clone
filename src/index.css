@@ -26,10 +26,10 @@ code {
 
 #rental-list {
   border: 2px solid black;
-  padding: 4px;
-  margin: 6px;
+  padding: 8px;
+  margin: 12px;
   width: 300px;
-  height: 300px;
+  height: 450px;
   display: inline-block;
   text-align: center;
 }
@@ -49,4 +49,9 @@ code {
 
 #profile-btns {
   display: inline-block;
+}
+
+#rental-img {
+  width: 300px;
+  height: 300px;
 }
