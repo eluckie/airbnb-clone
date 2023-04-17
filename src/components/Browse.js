@@ -29,12 +29,16 @@ const filterList = [
 function Browse() {
   return (
     <React.Fragment>
+      <hr/>
       {filterList.map((filter, index) =>
         <Filters category={filter.category}
         key={index}/>
       )}
-      <hr/>
+      <button>{">"}</button>
+      <br/>
       <Search/>
+      <br/><br/>
+      <hr/>
     </React.Fragment>
   );
 }

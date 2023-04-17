@@ -4,7 +4,9 @@ import PropTypes from "prop-types";
 function Filters(props) {
   return (
     <React.Fragment>
-      <h3>{props.category}</h3>
+      <div id="inline-list">
+        <h3>{props.category}</h3>
+      </div>
     </React.Fragment>
   );
 }

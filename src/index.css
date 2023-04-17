@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 10px;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -14,4 +15,38 @@ code {
 
 #logo {
   width: 100px;
+  display: inline-block;
+}
+
+#inline-list {
+  display: inline-block;
+  padding: 4px;
+  margin: 6px;
+}
+
+#rental-list {
+  border: 2px solid black;
+  padding: 4px;
+  margin: 6px;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  text-align: center;
+}
+
+#res-btn {
+  border-radius: 1rem;
+}
+
+#header-logo {
+  display:inline-flex;
+  padding-right: 450px;
+}
+
+#header-res {
+  display:inline-block;
+}
+
+#profile-btns {
+  display: inline-block;
 }

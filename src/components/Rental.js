@@ -13,7 +13,7 @@ function Rental(props) {
 }
 
 Rental.propTypes = {
-  image: PropTypes.object,
+  image: PropTypes.string,
   location: PropTypes.string.isRequired,
   rating: PropTypes.number.isRequired,
   distance: PropTypes.number.isRequired,

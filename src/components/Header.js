@@ -6,9 +6,16 @@ import logo from "./../img/airbnb-logo.png"
 function Header() {
   return (
     <React.Fragment>
-      <img src={logo} alt="AirBNB logo" id="logo"/>
-      <ReservationBar/>
-      <Profile/>
+      <div id="header-logo">
+        <img src={logo} alt="AirBNB logo" id="logo"/>
+        <div id="header-res">
+          <ReservationBar/>
+        </div>
+        <div id="profile-btns">
+          <Profile/>
+        </div>
+      </div>
+      <br/><br/>
     </React.Fragment>
   );
 }
