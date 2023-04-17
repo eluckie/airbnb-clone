@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "./Header";
 import Browse from "./Browse";
-import Rentals from "./Rentals";
+import RentalList from "./RentalList";
 
 function App() {
   return (
     <React.Fragment>
       <Header />
       <Browse />
-      <Rentals />
+      <RentalList />
     </React.Fragment>
   );
 }
